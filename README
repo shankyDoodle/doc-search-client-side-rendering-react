@@ -1,0 +1,9 @@
+# Doc Search App Client Side rendering in React.
+
+Setup:
+* Clone or download repository.
+* run 'npm install'.
+* run 'npm start' command to initiate parcel
+
+Pre-requisite:
+a running web server (in this case running doc-search-web-serve from other repository).

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Docs App Setup</title>
+    <link href="styles/style.css" rel="stylesheet"/>
+    <link href="styles/searchpage.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="root"></div>
+<div class="appContainerWrapper">
+    <div class="appContainer">
+        <div class="headerBarContainer">
+            <div class="appName">Docs App Setup</div>
+        </div>
+        <form method="GET" action="docs-app.html" class="searchBarContainerForm setupSearchBar">
+            <div class="dummyWrapper setupPage">
+                <label class="setupLabel"><strong>Docs Web Services URL:</strong></label>
+                <input type="url" size="50" name="ws-url" value="http://zdu.binghamton.edu:1235" class="searchInput setupInput"/>
+                <input class="control searchSubmitButton setupSubmit" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- dummy link used to force parceljs to link in users-app -->
+<a href="docs-app.html"/>
+</body>
+</html>
