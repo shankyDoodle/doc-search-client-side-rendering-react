@@ -112,11 +112,11 @@ class Search extends React.Component {
     let iNextStart = null, iPrevStart = null;
     this.state.links.forEach(function (oLink) {
       let iLinkStart = Number(oLink.start);
-      if (oLink.rel === 'next') {
+      if (oLink.rel.toLowerCase() === 'next') {
         iNextStart = iLinkStart;
       }
 
-      if (oLink.rel === 'previous') {
+      if (oLink.rel.toLowerCase() === 'previous') {
         iPrevStart = iLinkStart;
       }
     });

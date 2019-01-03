@@ -1,7 +1,7 @@
 # Doc Search App
 Client Side rendering in React integrated with Dos Search Web Server
 
-##Demo:
+## Demo:
 [Doc Search Live](http://3.16.149.228:1238/index.html)
 
 This app is running on AWS with using MongoDB Atlas and Web server installed in other repository
